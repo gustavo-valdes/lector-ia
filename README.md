@@ -13,10 +13,9 @@ La app es completamente portable.
 ---
 
 ## Capturas de pantalla
-```
-test/
-├── App_Test.png
-```
+
+![LectorIA](test/App_Test.png)
+
 ---
 
 ## Funciones principales
