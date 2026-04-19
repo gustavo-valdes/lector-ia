@@ -7,7 +7,7 @@
 Aplicación de escritorio para **lectura accesible** orientada a estudiantes con discapacidad visual. LectorIA transcribe documentos (PDF, imágenes, texto) usando Google Gemini AI y los reproduce en voz alta, con resaltado de palabras y un asistente de preguntas y respuestas.
 
 ## Instalación
-Descarga el archivo **LectorIA.zip**, descomprime y ejecuta **LectorIA.exe**. 
+Descarga el archivo **LectorIA.zip (ver sección *Releases*)**, descomprime y ejecuta **LectorIA.exe**. 
 La app es completamente portable. 
 
 ---
