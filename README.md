@@ -6,17 +6,17 @@
 
 Aplicación de escritorio para **lectura accesible** orientada a estudiantes con discapacidad visual. LectorIA transcribe documentos (PDF, imágenes, texto) usando Google Gemini AI y los reproduce en voz alta, con resaltado de palabras y un asistente de preguntas y respuestas.
 
+## Instalación
+Descarga el archivo LectorIA.zip, descomprime y ejecuta LectorIA.exe. 
+La app es completamente portable. 
+
 ---
 
 ## Capturas de pantalla
-
-> Agrega tus capturas en la carpeta `screenshots/` y actualiza las rutas aquí.
-
 ```
 test/
 ├── App_Test.png
 ```
-
 ---
 
 ## Funciones principales
@@ -44,9 +44,8 @@ test/
 
 ## Requisitos
 
-- Python **3.11** o superior
+- Python **3.11** o superior (solo para compilar, versión zip no requiere python instalado)
 - Una **API Key de Google Gemini** (obtenla en [Google AI Studio](https://aistudio.google.com/))
-- Windows (la app compila a .exe con PyInstaller)
 
 **Dependencias opcionales** (para entrada por voz):
 - `sounddevice`
