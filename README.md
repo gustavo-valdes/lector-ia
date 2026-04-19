@@ -1,4 +1,4 @@
-# LectorIA
+# Lector IA
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
 ![PySide6](https://img.shields.io/badge/PySide6-Qt6-green?logo=qt&logoColor=white)
@@ -7,14 +7,14 @@
 Aplicación de escritorio para **lectura accesible** orientada a estudiantes con discapacidad visual. LectorIA transcribe documentos (PDF, imágenes, texto) usando Google Gemini AI y los reproduce en voz alta, con resaltado de palabras y un asistente de preguntas y respuestas.
 
 ## Instalación
-Descarga el archivo LectorIA.zip, descomprime y ejecuta LectorIA.exe. 
+Descarga el archivo **LectorIA.zip**, descomprime y ejecuta **LectorIA.exe**. 
 La app es completamente portable. 
 
 ---
 
 ## Capturas de pantalla
 
-![LectorIA](test/App_Test.png)
+![lector-ia](test/App_Test.png)
 
 ---
 
@@ -119,7 +119,7 @@ El ejecutable quedará en `dist/LectorIA/`.
 ## Estructura del proyecto
 
 ```
-App Clean/
+lector-ia/
 ├── main.py           # Punto de entrada
 ├── app.py            # Ventana principal y lógica de UI (PySide6)
 ├── config.py         # Gestión de configuración (config.json)
