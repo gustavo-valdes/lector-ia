@@ -25,12 +25,11 @@ La app es completamente portable.
 - Transcripción inteligente con Google Gemini AI (describe imágenes y diagramas)
 - Reproducción de audio con gTTS y resaltado de palabra activa
 - Controles de reproducción: play/pausa, avance/retroceso por oración
-- Modo lento y control de velocidad
 - Sistema de marcadores (10 por sesión)
 
 ### Asistente de preguntas
 - Pregunta sobre el documento cargado en lenguaje natural
-- Entrada por texto o por voz (micrófono)
+- Entrada por voz (micrófono)
 - Respuestas narradas en voz alta
 - Historial de respuestas navegable
 
@@ -48,7 +47,7 @@ La app es completamente portable.
 
 ---
 
-## Instalación
+## Building
 
 ```bash
 # 1. Clona el repositorio
@@ -74,6 +73,14 @@ Edita el archivo `config.json` y reemplaza el valor de `api_key`:
 }
 ```
 
+También puedes agregar instrucciones adicionales.
+{
+  "api_key": "",
+  "default_system_prompt": "INSTRUCCIONES GENERALES ACÁ.",
+  "model": "gemini-2.5-flash",
+  "transcription_prompt": "INSTRUCCIONES DE CÓMO DEBE TRANSCRIBIR EL TEXTO, ESTRUCTURA, ETC."
+}
+
 ---
 
 ## Uso
@@ -94,7 +101,7 @@ python main.py
 | Navegar sesiones | `Ctrl+↑ / ↓` |
 | Guardar marcador | `Ctrl+1…9, Ctrl+0` |
 | Ir a marcador | `Alt+1…9, Alt+0` |
-| Iniciar/detener grabación | `Enter` (pestaña Q&A) |
+| Iniciar/detener grabación | `Enter` (pestaña Preguntas) |
 | Renombrar sesión | `F2` |
 
 ---
