@@ -46,11 +46,6 @@ La app es completamente portable.
 - Python **3.11** o superior (solo para compilar, versión zip no requiere python instalado)
 - Una **API Key de Google Gemini** (obtenla en [Google AI Studio](https://aistudio.google.com/))
 
-**Dependencias opcionales** (para entrada por voz):
-- `sounddevice`
-- `SpeechRecognition`
-- `numpy`
-
 ---
 
 ## Instalación
