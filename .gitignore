@@ -1,0 +1,27 @@
+# Private config (contains API key)
+config.json
+
+# User session data
+sessions/
+
+# Audio cache
+audio_cache/
+
+# PyInstaller build output
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Claude Code local settings
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
