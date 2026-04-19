@@ -73,6 +73,7 @@ Edita el archivo `config.json` y reemplaza el valor de `api_key`:
 }
 ```
 
+```json
 También puedes agregar instrucciones adicionales.
 {
   "api_key": "",
@@ -80,6 +81,7 @@ También puedes agregar instrucciones adicionales.
   "model": "gemini-2.5-flash",
   "transcription_prompt": "INSTRUCCIONES DE CÓMO DEBE TRANSCRIBIR EL TEXTO, ESTRUCTURA, ETC."
 }
+```
 
 ---
 
