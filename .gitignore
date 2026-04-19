@@ -1,6 +1,3 @@
-# Private config (contains API key)
-config.json
-
 # User session data
 sessions/
 
@@ -18,9 +15,6 @@ __pycache__/
 .venv/
 venv/
 env/
-
-# Claude Code local settings
-.claude/
 
 # OS
 .DS_Store
